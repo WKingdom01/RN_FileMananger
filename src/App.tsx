@@ -1,9 +1,9 @@
 
-import React from "react";
-import { Explorer } from "./pages";
+import React from 'react';
+import { Explorer } from './pages';
 
 
-export default function App() {
+const App: React.FC = () => {
  
 
   return (
@@ -12,4 +12,6 @@ export default function App() {
     </main>
   );
 }
+
+export default App
 
